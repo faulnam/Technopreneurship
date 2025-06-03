@@ -1,0 +1,131 @@
+/* Responsive styles */
+
+/* Tablet and smaller desktop */
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+
+  .hero-content h2 {
+    font-size: 3rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-img, .about-text {
+    flex: none;
+    width: 100%;
+  }
+
+  .about-img {
+    margin-bottom: var(--space-md);
+  }
+}
+
+/* Mobile landscape and tablet portrait */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-md) 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-150%);
+    opacity: 0;
+    transition: transform var(--transition-medium), opacity var(--transition-medium);
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .nav-links li {
+    margin: var(--space-xs) 0;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  section {
+    padding: var(--space-lg) 0;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .product-img {
+    height: 180px;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For very small screens */
+@media screen and (max-width: 320px) {
+  .btn {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.9rem;
+  }
+
+  .logo h1 {
+    font-size: 1.2rem;
+  }
+}
+
+/* High resolution displays */
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1400px;
+  }
+}

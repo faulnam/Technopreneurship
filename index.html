@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Dimsum Delight - Authentic dim sum delivered to your doorstep. Enjoy traditional Chinese dumplings and small plates made with fresh ingredients." />
+  <title>FahD – Dim Sum Autentik, Bikin Nagih</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header id="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="#home">Fah<span>D</span></a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Experience Dim Sum Otentik</h2>
+        <p>Dibuat dengan Tradisi, Dikirim Penuh Cinta & Care</p>
+        <a href="#products" class="btn">Lihat Menu Kami</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title animate-fade-in">Tentang Kami</h2>
+        <div class="about-content animate-slide-up">
+          <p>
+            Dimsum kami adalah perpaduan rasa otentik tradisional dan sentuhan modern, menghadirkan kenikmatan di setiap
+            gigitan kecil yang sempurna. Dibuat dengan bahan segar pilihan dan teknik memasak presisi, menjaga cita rasa
+            asli serta tekstur lembut yang menggoda selera. Kami memastikan setiap dimsum yang sampai ke tangan Anda
+            adalah karya seni kuliner yang memuaskan selera sekaligus menghadirkan pengalaman makan berkesan.
+          </p>
+        </div>
+        <!-- Bubbles container -->
+        <div class="bubbles">
+          <!-- Bubble kanan -->
+          <span class="bubble" style="--i:11; --pos:80%;"></span>
+          <span class="bubble" style="--i:15; --pos:75%;"></span>
+          <span class="bubble" style="--i:20; --pos:85%;"></span>
+          <span class="bubble" style="--i:25; --pos:70%;"></span>
+          <span class="bubble" style="--i:18; --pos:90%;"></span>
+          <span class="bubble" style="--i:22; --pos:78%;"></span>
+          <span class="bubble" style="--i:12; --pos:82%;"></span>
+          <!-- Bubble kiri -->
+          <span class="bubble" style="--i:10; --pos:15%;"></span>
+          <span class="bubble" style="--i:14; --pos:10%;"></span>
+          <span class="bubble" style="--i:19; --pos:5%;"></span>
+          <span class="bubble" style="--i:23; --pos:20%;"></span>
+          <span class="bubble" style="--i:17; --pos:12%;"></span>
+          <span class="bubble" style="--i:21; --pos:18%;"></span>
+          <span class="bubble" style="--i:13; --pos:8%;"></span>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="products">
+      <div class="container">
+        <h2 class="section-title">Produk Kami</h2>
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-category="all">All</button>
+          <button class="filter-btn" data-category="favorite">Paling Disukai</button>
+          <button class="filter-btn" data-category="popular">Popular</button>
+          <button class="filter-btn" data-category="dessert">Dessert</button>
+          <button class="filter-btn" data-category="new">New</button>
+        </div>
+
+
+        <div class="products-grid" id="products-grid">
+          <!-- Produk akan muncul di sini lewat JavaScript -->
+        </div>
+
+        <div class="pagination">
+          <button id="prevBtn" disabled>Prev</button>
+          <span id="pageInfo"></span>
+          <button id="nextBtn">Next</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+
+        <div class="contact-content">
+          <div class="contact-item">
+            <div class="left">
+              <h3>Pesan Sekarang</h3>
+              <a href="https://wa.me/6287756767495" class="contact-link whatsapp">
+                <span class="icon">📱</span> WhatsApp
+              </a>
+            </div>
+            <div class="right">
+              <p>Pengantaran tersedia di hampir semua area kota. Order minimal 2 jam sebelumnya ya!</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="left">
+              <h3>Ikuti</h3>
+              <a href="https://www.instagram.com/fahmisyaif_" class="contact-link instagram">
+                <span class="icon">📸</span> Instagram
+              </a>
+            </div>
+            <div class="right">
+              <p>Jangan ketinggalan promo dan menu terbaru kami!</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="left">
+              <h3>Jam Buka</h3>
+            </div>
+            <div class="right">
+              <p>Selasa - Minggu: <strong>11:00 - 20:00</strong></p>
+              <p>Senin: <strong>Tutup</strong></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Made with by <a href="https://www.instagram.com/faulnam_">@faulnam.</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/product.js"></script>
+
+</body>
+
+</html>
