@@ -1,7 +1,7 @@
  document.addEventListener('DOMContentLoaded', () => {
       const products = [
         {
-          name: "Har Gow",
+          name: "Dimsum Mentai",
           desc: "Translucent steamed shrimp dumplings with bamboo shoots",
           price: "$8.99",
           img: "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -9,7 +9,7 @@
           category: "favorite"
         },
         {
-          name: "Siu Mai",
+          name: "Lumpia Udang",
           desc: "Open-faced dumplings with pork, shrimp, and mushroom",
           price: "$7.99",
           img: "https://images.pexels.com/photos/14000383/pexels-photo-14000383.jpeg?auto=compress&cs=tinysrgb&w=800",
